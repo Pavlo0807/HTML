@@ -11,19 +11,18 @@
 .creations-wrap-description {
     margin-top: 12px;
     margin-bottom: 40px;
+    font-size: 14px;
 }
 
 .creations-card {
     display: flex;
-    align-items: center;
-    width: 100%;
-    text-align: center;
+    gap: 40px;
     flex-wrap: wrap;
-    flex: 0 1 33.33%;
-    justify-content: space-between;
-
+    justify-content: center;
 }
 
 .creations-card-title {
     margin-top: 16px;
+    font-size: 18px;
+
 }
