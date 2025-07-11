@@ -20,11 +20,33 @@
 .hero-block p {
     margin-top: 16px;
     margin-bottom: 32px;
+    font-size: 22px;
+}
+.hero-button {
+    height: 53px;
+    font-size: 14px;
+    width: 202px;
+}
+.hero-button:first-child {
+    margin-right: 16px;
 }
 
 @media screen and (max-width: 700px) {
     .hero-block {
         margin-right: 16px;
         margin-left: 16px;
+    }
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-button {
+        width: 294px;
+
+    }
+    .hero-button:first-child {
+        margin-right: 0;
+        margin-bottom: 16px;
     }
 }
