@@ -45,6 +45,7 @@
     }
     .mobail {
         padding: 104px 16px;
+
     }
 
     .mobail-button:last-child {
@@ -64,9 +65,6 @@
         padding-left: 0;
         flex-direction: column;
     }
-.mobail-card{
-    margin: 0;
-}
 .mobail-button{
     padding: 0;
 }
